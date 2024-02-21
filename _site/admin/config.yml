@@ -1,4 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
+  base_url: https://login.microsoftonline.com/44467e6f-462c-4ea2-823f-7800de5434e3
+  auth_endpoint: /oauth2/v2.0/authorize
+  cms_label_prefix: decap-cms/
 media_folder: "images/uploads"
