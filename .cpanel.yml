@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jakramer/public_html/decapcms
+    - rm -rf $DEPLOYPATH/*
+    - /bin/cp -r _site/*  $DEPLOYPATH
